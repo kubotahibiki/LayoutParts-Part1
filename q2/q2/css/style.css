@@ -7,10 +7,13 @@ ul{
 }
 li{
   width:200px;
-  margin:30px;
+  margin-top:30px;
   outline: 10px solid #655;
   box-shadow: 0 0 0 6px #655;
   border-radius: 13px;
   padding: 10px;
   background: #d2b48c;
+}
+li:not(:first-child){
+  margin-left: 60px;
 }
